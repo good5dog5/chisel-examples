@@ -59,3 +59,6 @@ txd * * rxd (pin 1)
 
 rxd and txd are from the FPGA view, therefore TTL UART rxd needs to
 be connected to txd (pin 2) and the other way around.
+
+# for test
+* first test
