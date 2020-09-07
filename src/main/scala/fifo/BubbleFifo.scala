@@ -10,7 +10,6 @@ class BubbleFifo[T <: Data](gen: T, depth: Int) extends Fifo(gen: T, depth: Int)
 
   private class Buffer() extends Module {
     val io = IO(new FifoIO(gen))
-    force to fail
 
     val fullReg = RegInit(false.B)
     val dataReg = Reg(gen)
