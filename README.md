@@ -63,3 +63,4 @@ be connected to txd (pin 2) and the other way around.
 # for test
 * 1th test
 * 2th test
+* 3th test
